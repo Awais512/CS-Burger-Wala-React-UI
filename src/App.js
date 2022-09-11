@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Header, Home } from "./components";
 import "./styles/app.scss";
+import "./styles/header.scss";
 
 const App = () => {
   return (
