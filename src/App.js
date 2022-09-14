@@ -3,6 +3,7 @@ import { Header, Home } from "./components";
 import "./styles/app.scss";
 import "./styles/header.scss";
 import "./styles/home.scss";
+import "./styles/Founder.scss";
 
 const App = () => {
   return (
