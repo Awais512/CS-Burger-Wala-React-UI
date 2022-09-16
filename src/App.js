@@ -5,6 +5,7 @@ import "./styles/header.scss";
 import "./styles/home.scss";
 import "./styles/Founder.scss";
 import "./styles/menu.scss";
+import "./styles/footer.scss";
 
 const App = () => {
   return (

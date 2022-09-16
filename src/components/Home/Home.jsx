@@ -12,7 +12,7 @@ const Home = () => {
             initial={{ x: "-100%", opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
           >
-            Burgerwala
+            CS Burgerwala
           </motion.h1>
           <motion.p
             initial={{ x: "-100%", opacity: 0 }}
