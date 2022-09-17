@@ -5,3 +5,4 @@ export { default as Menu } from "./Home/Menu";
 export { default as Footer } from "./Layout/Footer";
 export { default as Contact } from "./Contact/Contact";
 export { default as Cart } from "./Cart/Cart";
+export { default as Shipping } from "./Shipping/Shipping";
