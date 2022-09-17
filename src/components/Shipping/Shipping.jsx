@@ -1,8 +1,9 @@
 import React from "react";
 import { Country, State } from "country-state-city";
+import { useNavigate } from "react-router-dom";
 
 const Shipping = () => {
-  console.log(State.getAllStates("PK"));
+  const navigate = useNavigate();
   return (
     <section className="shipping">
       <main>
@@ -46,7 +47,9 @@ const Shipping = () => {
             <label htmlFor="mobile">Mobile No</label>
             <input type="text" placeholder="Enter Mobile No" />
           </div>
-          <button type="submit">Confirm Order</button>
+          <button type="submit" onClick={() => navigate("/confirmorder")}>
+            Confirm Order
+          </button>
         </form>
       </main>
     </section>
